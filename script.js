@@ -48,10 +48,7 @@ class Effect {
     }
 
 
-    initialize() {
-        this.#initialize();
-    }
-    initilize() {
+   #initilize() {
         for (let i = 0; i < this.columns; i++) {
             this.symbols[i] = new Symbol(i, 0, this.fontSize, this.canvasHeight);
         }
